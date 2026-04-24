@@ -1,4 +1,4 @@
-﻿using Bloxstrap.Models.Entities;
+using Bloxstrap.Models.Entities;
 using Bloxstrap.Models.SettingTasks.Base;
 
 namespace Bloxstrap.Models.SettingTasks

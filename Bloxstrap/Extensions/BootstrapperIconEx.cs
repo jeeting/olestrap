@@ -1,4 +1,4 @@
-﻿using System.Drawing;
+using System.Drawing;
 
 namespace Bloxstrap.Extensions
 {
@@ -49,12 +49,12 @@ namespace Bloxstrap.Extensions
                     }
                 }
 
-                return customIcon ?? Properties.Resources.IconBloxstrap;
+                return customIcon ?? Properties.Resources.IconOlestrap;
             }
 
             return icon switch
             {
-                BootstrapperIcon.IconBloxstrap => Properties.Resources.IconBloxstrap,
+                BootstrapperIcon.IconBloxstrap => Properties.Resources.IconOlestrap,
                 BootstrapperIcon.Icon2008 => Properties.Resources.Icon2008,
                 BootstrapperIcon.Icon2011 => Properties.Resources.Icon2011,
                 BootstrapperIcon.IconEarly2015 => Properties.Resources.IconEarly2015,
@@ -63,7 +63,7 @@ namespace Bloxstrap.Extensions
                 BootstrapperIcon.Icon2019 => Properties.Resources.Icon2019,
                 BootstrapperIcon.Icon2022 => Properties.Resources.Icon2022,
                 BootstrapperIcon.IconBloxstrapClassic => Properties.Resources.IconBloxstrapClassic,
-                _ => Properties.Resources.IconBloxstrap
+                _ => Properties.Resources.IconOlestrap
             };
         }
     }

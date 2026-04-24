@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Roblox Studio Mod Manager (ProjectSrc/Utility/Package.cs)
  * MIT License
  * Copyright (c) 2015-present MaximumADHD

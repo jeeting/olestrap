@@ -1,4 +1,4 @@
-﻿using Bloxstrap.UI.ViewModels.About;
+using Bloxstrap.UI.ViewModels.About;
 
 using System.Windows.Input;
 using System.Windows.Media.Animation;

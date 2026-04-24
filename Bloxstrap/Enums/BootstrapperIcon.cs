@@ -1,8 +1,8 @@
-﻿namespace Bloxstrap.Enums
+namespace Bloxstrap.Enums
 {
     public enum BootstrapperIcon
     {
-        [EnumName(StaticName = "Bloxstrap")]
+        [EnumName(StaticName = "Olestrap")]
         IconBloxstrap,
         [EnumName(StaticName = "2008")]
         Icon2008,

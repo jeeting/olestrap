@@ -1,4 +1,4 @@
-﻿using Bloxstrap.UI.Elements.Base;
+using Bloxstrap.UI.Elements.Base;
 using Bloxstrap.UI.ViewModels.Dialogs;
 using Microsoft.Win32;
 using System.IO.Compression;

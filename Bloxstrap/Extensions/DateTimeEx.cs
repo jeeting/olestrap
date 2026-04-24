@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Extensions
+namespace Bloxstrap.Extensions
 {
     static class DateTimeEx
     {

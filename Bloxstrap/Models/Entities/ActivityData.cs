@@ -1,4 +1,4 @@
-ï»¿using System.Web;
+using System.Web;
 using System.Windows;
 using System.Windows.Input;
 using Bloxstrap.AppData;
@@ -64,7 +64,7 @@ namespace Bloxstrap.Models.Entities
             get
             {
                 string desc = string.Format(
-                    "{0} â€¢ {1} {2} {3}", 
+                    "{0} • {1} {2} {3}", 
                     UniverseDetails?.Data.Creator.Name,
                     TimeJoined.ToString("t"), 
                     Locale.CurrentCulture.Name.StartsWith("ja") ? '~' : '-',
@@ -72,7 +72,7 @@ namespace Bloxstrap.Models.Entities
                 );
 
                 if (ServerType != ServerType.Public)
-                    desc += " â€¢ " + ServerType.ToTranslatedString();
+                    desc += " • " + ServerType.ToTranslatedString();
 
                 return desc;
             }

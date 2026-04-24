@@ -1,4 +1,4 @@
-﻿using Bloxstrap.UI.Elements.Bootstrapper.Base;
+using Bloxstrap.UI.Elements.Bootstrapper.Base;
 using Bloxstrap.UI.ViewModels.Bootstrapper;
 using System;
 using System.Collections.Generic;

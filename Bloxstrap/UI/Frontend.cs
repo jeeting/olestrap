@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 
 using Bloxstrap.UI.Elements.Bootstrapper;
 using Bloxstrap.UI.Elements.Dialogs;
@@ -24,7 +24,7 @@ namespace Bloxstrap.UI
 
             string info = String.Format(
                 Strings.Dialog_PlayerError_FailedLaunch,
-                $"https://bloxstraplabs.com/wiki/help/roblox-crashes-or-does-not-launch/"
+                $"https://github.com/jeeting/olestrap/wiki/"
             );
 
             ShowMessageBox(info, MessageBoxImage.Error);
@@ -72,7 +72,7 @@ namespace Bloxstrap.UI
                 App.Logger.WriteException(LOG_IDENT, ex);
 
                 if (!App.LaunchSettings.QuietFlag.Active)
-                    ShowMessageBox(string.Format(Strings.CustomTheme_Errors_SetupFailed, ex.Message, "Bloxstrap"), MessageBoxImage.Error); // NOTE: Bloxstrap is the theme name
+                    ShowMessageBox(string.Format(Strings.CustomTheme_Errors_SetupFailed, ex.Message, "Olestrap"), MessageBoxImage.Error); // NOTE: Olestrap is the theme name
 
                 return GetBootstrapperDialog(BootstrapperStyle.FluentDialog);
             }
@@ -109,7 +109,7 @@ namespace Bloxstrap.UI
         {
             var notifyIcon = new System.Windows.Forms.NotifyIcon
             {
-                Icon = Properties.Resources.IconBloxstrap,
+                Icon = Properties.Resources.IconOlestrap,
                 Text = App.ProjectName,
                 Visible = true
             };

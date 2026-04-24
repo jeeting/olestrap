@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 using System.ComponentModel;
 using System.Windows.Forms;
 using System.Windows.Media;

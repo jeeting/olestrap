@@ -1,4 +1,4 @@
-﻿using System.Media;
+using System.Media;
 using System.Windows;
 using System.Windows.Interop;
 using System.Windows.Media.Imaging;

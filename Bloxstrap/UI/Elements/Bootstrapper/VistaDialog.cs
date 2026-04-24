@@ -1,4 +1,4 @@
-﻿using System.Windows.Forms;
+using System.Windows.Forms;
 
 using Bloxstrap.UI.Elements.Bootstrapper.Base;
 

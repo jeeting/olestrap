@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Enums
+namespace Bloxstrap.Enums
 {
     public enum NextAction
     {

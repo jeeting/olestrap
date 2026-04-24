@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 using System.Windows.Interop;
 using Wpf.Ui.Appearance;
 using Wpf.Ui.Controls;

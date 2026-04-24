@@ -1,4 +1,4 @@
-﻿using Bloxstrap.Models.RobloxApi;
+using Bloxstrap.Models.RobloxApi;
 
 namespace Bloxstrap.Models.Entities
 {

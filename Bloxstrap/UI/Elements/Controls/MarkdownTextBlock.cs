@@ -1,4 +1,4 @@
-﻿using Bloxstrap.UI.ViewModels;
+using Bloxstrap.UI.ViewModels;
 using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Markup;

@@ -1,4 +1,4 @@
-﻿using System.Security.Cryptography;
+using System.Security.Cryptography;
 using System.Windows.Markup;
 
 namespace Bloxstrap.Models.Entities

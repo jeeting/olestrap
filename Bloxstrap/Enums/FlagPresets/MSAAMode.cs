@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Enums.FlagPresets
+namespace Bloxstrap.Enums.FlagPresets
 {
     public enum MSAAMode
     {

@@ -1,4 +1,4 @@
-﻿using Bloxstrap.Integrations;
+using Bloxstrap.Integrations;
 using Bloxstrap.UI.ViewModels.ContextMenu;
 
 namespace Bloxstrap.UI.Elements.ContextMenu

@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.AppData
+namespace Bloxstrap.AppData
 {
     internal interface IAppData
     {

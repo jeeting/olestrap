@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Windows;
 using System.Windows.Shell;
@@ -14,15 +14,15 @@ namespace Bloxstrap
     public partial class App : Application
     {
 #if QA_BUILD
-        public const string ProjectName = "Bloxstrap-QA";
+        public const string ProjectName = "Olestrap-QA";
 #else
-        public const string ProjectName = "Bloxstrap";
+        public const string ProjectName = "Olestrap";
 #endif
-        public const string ProjectOwner = "Bloxstrap";
-        public const string ProjectRepository = "bloxstraplabs/bloxstrap";
-        public const string ProjectDownloadLink = "https://bloxstraplabs.com";
-        public const string ProjectHelpLink = "https://bloxstraplabs.com/wiki/help/";
-        public const string ProjectSupportLink = "https://github.com/bloxstraplabs/bloxstrap/issues/new";
+        public const string ProjectOwner = "jeeting";
+        public const string ProjectRepository = "jeeting/olestrap";
+        public const string ProjectDownloadLink = "https://github.com/jeeting/olestrap";
+        public const string ProjectHelpLink = "https://github.com/jeeting/olestrap/wiki/";
+        public const string ProjectSupportLink = "https://github.com/jeeting/olestrap/issues/new";
 
         public const string RobloxPlayerAppName = "RobloxPlayerBeta";
         public const string RobloxStudioAppName = "RobloxStudioBeta";
@@ -148,10 +148,10 @@ namespace Bloxstrap
         {
             // dont let user switch web environment if debug mode is not on
             if (Settings.Prop.WebEnvironment == WebEnvironment.Production || !Settings.Prop.DeveloperMode)
-                return "services.bloxstraplabs.com";
+                return "github.com/jeeting/olestrap";
 
             string? sub = Settings.Prop.WebEnvironment.GetDescription();
-            return $"services-{sub}.bloxstraplabs.com";
+            return $"github.com/jeeting/olestrap";
         }
 
         public static bool CanSendLogs()

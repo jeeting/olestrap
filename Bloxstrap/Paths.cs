@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap
+namespace Bloxstrap
 {
     static class Paths
     {

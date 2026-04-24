@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 using Bloxstrap.UI.ViewModels.Installer;
 
 namespace Bloxstrap.UI.Elements.Installer.Pages

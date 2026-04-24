@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 
 namespace Bloxstrap.UI.ViewModels.About
 {

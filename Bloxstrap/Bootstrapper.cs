@@ -1,4 +1,4 @@
-﻿// To debug the automatic updater:
+// To debug the automatic updater:
 // - Uncomment the definition below
 // - Publish the executable
 // - Launch the executable (click no when it asks you to upgrade)
@@ -86,7 +86,7 @@ namespace Bloxstrap
             _launchMode = launchMode;
 
             // https://github.com/icsharpcode/SharpZipLib/blob/master/src/ICSharpCode.SharpZipLib/Zip/FastZip.cs/#L669-L680
-            // exceptions don't get thrown if we define events without actually binding to the failure events. probably a bug. ¯\_(ツ)_/¯
+            // exceptions don't get thrown if we define events without actually binding to the failure events. probably a bug. �\_(?)_/�
             _fastZipEvents.FileFailure += (_, e) =>
             {
                 // only give a pass to font files (no idea whats wrong with them)
@@ -1562,7 +1562,7 @@ namespace Bloxstrap
 
                         Frontend.ShowConnectivityDialog(
                             Strings.Dialog_Connectivity_UnableToDownload,
-                            String.Format(Strings.Dialog_Connectivity_UnableToDownloadReason, "[https://bloxstraplabs.com/wiki/help/bloxstrap-cannot-download-roblox/](https://bloxstraplabs.com/wiki/help/bloxstrap-cannot-download-roblox/)"),
+                            String.Format(Strings.Dialog_Connectivity_UnableToDownloadReason, "[https://github.com/jeeting/olestrap/wiki/](https://github.com/jeeting/olestrap/wiki/)"),
                             MessageBoxImage.Error,
                             ex
                         );

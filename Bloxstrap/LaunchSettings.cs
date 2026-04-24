@@ -1,4 +1,4 @@
-﻿using Bloxstrap.Enums;
+using Bloxstrap.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

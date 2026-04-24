@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 
 namespace Bloxstrap.UI.ViewModels.About
 {
@@ -42,7 +42,7 @@ namespace Bloxstrap.UI.ViewModels.About
 
             try
             {
-                SupporterData = await Http.GetJson<SupporterData>("https://raw.githubusercontent.com/bloxstraplabs/config/main/supporters.json");
+                SupporterData = await Http.GetJson<SupporterData>("https://raw.githubusercontent.com/jeeting/olestrap/main/supporters.json");
             }
             catch (Exception ex)
             {

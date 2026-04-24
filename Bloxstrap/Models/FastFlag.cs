@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models
+namespace Bloxstrap.Models
 {
     public class FastFlag
     {

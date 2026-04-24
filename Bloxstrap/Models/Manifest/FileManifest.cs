@@ -1,4 +1,4 @@
-﻿using Bloxstrap.RobloxInterfaces;
+using Bloxstrap.RobloxInterfaces;
 
 namespace Bloxstrap.Models.Manifest
 {

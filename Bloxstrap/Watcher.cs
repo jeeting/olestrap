@@ -1,4 +1,4 @@
-﻿using Bloxstrap.AppData;
+using Bloxstrap.AppData;
 using Bloxstrap.Integrations;
 using Bloxstrap.Models;
 

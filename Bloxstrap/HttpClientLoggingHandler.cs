@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap
+namespace Bloxstrap
 {
     internal class HttpClientLoggingHandler : MessageProcessingHandler
     {

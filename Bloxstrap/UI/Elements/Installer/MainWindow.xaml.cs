@@ -1,4 +1,4 @@
-﻿using System.Windows.Controls;
+using System.Windows.Controls;
 using Wpf.Ui.Controls.Interfaces;
 using Wpf.Ui.Mvvm.Contracts;
 using System.ComponentModel;
@@ -18,7 +18,7 @@ namespace Bloxstrap.UI.Elements.Installer
     /// </summary>
     /// 
     /// The logic behind this wizard-like interface is full of gross hacks, but there's no easy way to do this and I've tried to 
-    /// make it as nice and MVVM-"""conformant""" as can possibly be ¯\_(ツ)_/¯
+    /// make it as nice and MVVM-"""conformant""" as can possibly be �\_(?)_/�
     /// 
     /// Page ViewModels can request changing of navigation button states through the following call flow:
     /// - Page ViewModel holds event for requesting button state change

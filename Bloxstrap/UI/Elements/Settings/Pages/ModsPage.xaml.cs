@@ -1,4 +1,4 @@
-﻿using Bloxstrap.UI.ViewModels.Settings;
+using Bloxstrap.UI.ViewModels.Settings;
 
 namespace Bloxstrap.UI.Elements.Settings.Pages
 {

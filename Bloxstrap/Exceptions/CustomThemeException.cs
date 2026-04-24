@@ -1,4 +1,4 @@
-﻿using Bloxstrap.Extensions;
+using Bloxstrap.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;

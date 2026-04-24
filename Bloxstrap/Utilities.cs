@@ -1,4 +1,4 @@
-﻿using Bloxstrap.AppData;
+using Bloxstrap.AppData;
 using System.ComponentModel;
 
 namespace Bloxstrap
